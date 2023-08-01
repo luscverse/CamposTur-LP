@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viagem dos Sonhos | CamposTur</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <header class="container-fluid p-1 bg-warning text-center">
+    <nav class="navbar navbar-expand-lg bg-warning">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html"><img src="/imgs/CamposTurLogo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Pacotes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Taxas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Dúvidas frequentes</a>
+            </li>
+            <li class="nav-item dropdown dropstart">
+              <a class="nav-link dropdown-toggle dropdown-center" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Destinos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <li><a class="dropdown-item" href="#">Sidney</a></li>
+                <li><a class="dropdown-item" href="#">Toronto</a></li>
+                <li><a class="dropdown-item" href="#">Machu Pichu</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"><i class="bi bi-cart-fill"></i> Carrinho</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/imgs/sidney.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Conheça a Opera House</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/imgs/toronto.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Para quem curta urbanidade e vida noturna</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/imgs/machupichu.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Explore a história e o passado</h5>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="container mt-4 text-center">
+    <h1>Realize a viagem dos seus sonhos com a CamposTur</h1>
+
+    <p class="mb-4">
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+      type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+      remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+      Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+      of Lorem Ipsum.
+      <br>
+    </p>
+
+    <div class="row">
+      <div class="col-md-9">
+        <section class="container-fluid bg-light text-center">
+          <h2>Conheça nossos pacotes</h2>
+
+          <p>
+            Veja abaixo os nossos pacotes e todos os serviços contemplados neles.
+          </p>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="/imgs/sidney.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Sidney</h5>
+                    <H2 class="card-subtitle text-muted">R$ 7500</H2><br>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <a href="#" class="btn bg-warning text-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">Quero viajar</a>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">Parcelado em até 24x</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="/imgs/toronto.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Toronto</h5>
+                    <H2 class="card-subtitle text-muted">R$ 6000</H2><br>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <a href="#" class="btn bg-warning text-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">Quero viajar</a>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">Parcelado em até 24x</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="/imgs/machupichu.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Machu Pichu</h5>
+                    <H2 class="card-subtitle text-muted">R$ 4000</H2><br>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <a href="#" class="btn bg-warning text-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">Quero viajar</a>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">Parcelado em até 24x</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <section class="container-fluid bg-light text-dark p-3 mt-4">
+
+          <h3 class="text-dark">Serviços e Taxas</h3>
+
+          <P class="text-sm-start">Na hora de planejar sua viagem e contratar um pacote de viagens, é fundamental
+            entender as taxas que estão inclusas no contrato. A CamposTur se compromete com a transparência, por isso,
+            disponibilizamos abaixo os preços dos nossos serviços.</P>
+
+          <table class="table table-warning table-striped table-hover table-bordered border-warning">
+            <caption>Descrição dos serviços e respectivos valores</caption>
+            <thead class="table-dark">
+              <tr>
+                <th>Serviços</th>
+                <th>Preço</th>
+              </tr>
+            </thead>
+
+            <tbody class="text-center">
+              <tr>
+                <td>Reserva do Hotel</td>
+                <td>R$150</td>
+              </tr>
+
+              <tr>
+                <td>Compra de passagens</td>
+                <td>R$ 100</td>
+              </tr>
+
+              <tr>
+                <td>Reserva de carros</td>
+                <td>R$ 100</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+
+        <section class="container-fluid bg-light text-center mt-4 mb-4">
+          <h3>Dúvidas frequentes</h3>
+
+          <div id="accordion">
+            <div class="card text-sm-start">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    Os serviços são reembolsáveis?
+                  </button>
+                </h5>
+              </div>
+
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+                  moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                  Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                  shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                  proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                  aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+            <div class="card  text-sm-start">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                    aria-expanded="false" aria-controls="collapseTwo">
+                    Uma vez feita a compra do pacote, posso mudar o destino da minha viagem?
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+                  moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                  Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                  shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                  proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                  aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+            <div class="card  text-sm-start">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                    aria-expanded="false" aria-controls="collapseThree">
+                    A CamposTur presta assistência durante a minha viagem?
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+                  moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                  Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                  shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                  proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                  aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+      </div>
+
+      <aside class="container-fluid col-lg-3 col-md-4 col-sm-6 bg-light text-center mb-4">
+        <!--<h3>Promoção imperdível: Japão</h3>
+            <center><br><video witdh=220" height="140" controls>
+                <source src="/HTML-CSS-Bootstrap/japan-promo.mp4" type="video/mp4">
+                <source src="movie.mp4" type="video/ogg">
+                Seu navegador não suporta a exibição do vídeo. <a href="/HTML-CSS-Bootstrap/japan-promo.mp4">Clique para baixar.</a>
+            </video></center><br>-->
+
+        <h3 class="text-dark">Solicite um orçamento</h3>
+        <form method="GET" action="" class="p-2">
+          <fieldset>
+            <legend class="text-center">Dados do usuário
+              <hr>
+            </legend>
+
+            <div class="mb-2 row">
+              <label class="form-label mb-2 text-lg-start" for="nome">
+                Nome:
+              </label>
+              <input type="text" class="form-control" required name="nome" placeholder="Digite seu nome" id="nome">
+            </div>
+
+            <div class="mb-2 row">
+              <label class="form-label mb-2 text-lg-start" for="email">
+                Email:
+              </label>
+              <input type="email" class="form-control" required name="email" placeholder="Digite seu email" id="email">
+            </div>
+
+            <div class="mb-2 row">
+              <label class="form-label mb-2 text-lg-start" for="phone">
+                Número de contato:
+              </label>
+              <input type="tel" class="form-control" required name="phone" placeholder="Digite seu telefone" id="phone">
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend class="mt-2 text-center">Data da viagem
+              <hr>
+            </legend>
+
+            <div class="mb-2 row">
+              <label class="form-label mb-2 text-lg-start" for="dataIda">
+                Ida:
+              </label>
+              <input type="date" class="form-control" required name="dataIda" id="dataIda" placeholder="00/00/00">
+            </div>
+
+            <div class="mb-2 row">
+              <label class="form-label mb-2 text-lg-start" for="dataVolta">
+                Volta:
+              </label>
+              <input type="date" class="form-control" required name="dataVolta" id="dataVolta" placeholder="00/00/00">
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend class="mt-2 text-center">Serviços à Contratar
+              <hr>
+            </legend>
+            <div class="form-check mb-1 text-sm-start">
+              <input type="checkbox" class="form-check-input" name="reservaHotel" value="Hotel" id="reservaHotel">
+              <label for="reservaHotel" class="form-check-label">Reserva de Hotel</label>
+            </div>
+
+            <div class="form-check mb-1 text-sm-start">
+              <input type="checkbox" class="form-check-input" name="compraPassagem" value="Passagem"
+                id="compraPassagem">
+              <label for="compraPassagem" class="form-check-label">Compra de Passagem</label>
+            </div>
+
+            <div class="form-check mb-1 text-sm-start">
+              <input type="checkbox" class="form-check-input" name="aluguelCarro" value="Carro" id="aluguelCarro">
+              <label for="aluguelCarro" class="form-check-label">Aluguel de carro</label>
+            </div>
+          </fieldset>
+
+          <button class="mt-4 btn btn-warning">Enviar</button>
+
+          <!--<input type="submit" value="Enviar" />-->
+        </form>
+
+      </aside>
+    </div>
+  </main>
+
+  <footer class="container-fluid bg-warning text-bg-dark p-4 text-dark row justify-content-between">
+
+    <div class="col-lg-1 col-md-1 col-sm-1 text-sm-start mt-2"><img src="/imgs/CamposTurLogo.png"></div>
+
+    <div class="col-lg-5 mt-2">
+      (83)9xxxx.xxxx<br>
+      campostur@emailfake.com<br>
+      Rua Fake da Silva, n. 356. João Pessoa, PB.</div>
+
+    <div class="col-lg-6 text-sm-end mt-2">Desenvolvido por <b>Lucas Campos</b>.<br>Copyright © 2023 CamposTur. All
+      Rights Reserverd.</div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</body>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5" id="exampleModalLabel">Deseja comprar este pacote?</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Ao confirmar, você será direcionado para a página de pagamento e de informações das pessoas a serem contempladas pelo pacote.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Cancelar</button>
+        <a href="/checkout.html" type="button" class="btn btn-success">Desejo viajar</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</html>

@@ -1,0 +1,100 @@
+html {
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'Kumbh Sans';
+    src: 
+        local("Kumbh Sans"),
+        url("Kumbh Sans.ttf") format("truetype");
+}
+
+header img{
+    width: 60%;
+}
+
+body {
+    font-family: Kumbh Sans;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 50px;
+    color: #ffc800;
+    padding: 15px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 16px;
+    padding: 5px;
+    background-color: #ffc800;
+    border-radius: 3px;
+}
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+}
+
+img {
+    width: 250px;
+    border-radius: 5px;
+}
+
+legend {
+    color: #303030;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+legend hr {
+    opacity: 25%;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 11px;
+}
+
+.container-fluid{
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.container-fluid col-3 bg-light text-center {
+    padding: 15px;
+}
+
+.form-control{
+    font-size: 14px;
+}
+
+.btn {
+    font-size: 14px;
+}
+
+.col-lg-1 img {
+    width: 100%;
+}
+
+.btn-link {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+}
+
+.carousel-caption h5 {
+    font-size: 40px;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.lead {
+    font-size: 14px;
+}
